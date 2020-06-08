@@ -1,0 +1,29 @@
+{
+  "build": {
+    "cpu": "cortex-m4",
+    "f_cpu": "96000000L",
+    "mcu": "sam4s16c"
+  },
+  "debug": {
+    "jlink_device": "ATSAM3U4C",
+    "onboard_tools": [
+      "cmsis-dap","jlink"
+    ],
+    "openocd_chipname": "atsam3u4c",
+    "openocd_target": "atsam",
+    "svd_path": "ATSAM3U4C.svd"
+  },
+  "frameworks": [],
+  "name": "Atmel SAM4S XPLAINED",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 262144,
+    "protocol": "cmsis-dap",
+    "protocols": [
+      "cmsis-dap",
+      "jlink"
+    ]
+  },
+  "url": "https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/ATSAM4S-XPLD",
+  "vendor": "Atmel"
+}
